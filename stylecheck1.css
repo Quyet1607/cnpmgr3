@@ -1,0 +1,230 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+.xbutton {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 47px;
+    background-color:  rgba(36, 190, 224, 1);
+}
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(12, 16, 16);
+    background-color: #FFFFFF;
+    font-size: 36px;
+    margin: 0 auto;
+}
+#header{
+    position: relative;
+    width: 100%;
+}
+.banner-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top {
+    padding: 11px 150px; 
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-left {
+    text-align: center; 
+}
+
+.header-top-left img{
+    width: 180px;
+    height: 50px;
+}
+.header-top-right {
+    text-align: center; 
+}
+.header-top-right{
+    height: 40px;
+    width: 40px;
+}
+.banner-bottom{
+    position: relative;
+}
+.banner-button{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: inline-flex;
+    padding: 32px;
+    align-items: flex-start;
+    background: rgba(6, 33, 38, 0.70);
+    backdrop-filter: blur(2.5px);
+   
+}
+.banner-button p{
+    color: var(--white, #FFF);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112.5%;
+    margin: 0; /* 54px */
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#done{
+    color:  rgba(36, 190, 224, 1);
+    text-align: center;
+}
+
+#IDDT{
+    text-align:center;
+    font-size: 45px;
+}
+
+#tab{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CT{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.ht-btn{
+	position: relative;
+    left: 38%;
+    background-color: rgba(36, 190, 224, 1);
+    border: 1px solid rgba(36, 190, 224, 1);
+    border-radius: 47px;
+    font-size: 30px;
+    color: #FFF;
+    width: 500px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.nlap, .id-right{
+	font-size: 32px;
+}
+
+.nlap {
+    text-align: left;
+    margin-left: 13%;
+}
+
+.id-right {
+    text-align: right;
+    margin-left: 10%;
+}
+
+#footer{
+    margin-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-top: 1px solid #dad6d6;
+}
+.footer-left p{
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-style: Light;
+    color: #484848;
+    line-height: 36px;
+}
+.footer-right p{
+    float: right;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-style: Light;
+    color: #484848;
+    line-height: 36px;
+}
+.form-group{
+    margin: 0 auto;
+    font-size: 20px;
+}
+.form-group1
+.form-control:hover{
+    border: 2px solid #24BEE0;
+}
+.main-form{
+    padding-top:30px ;
+    border-top: 1px solid #dad6d6;
+}
+.add{
+    border-top: 1px solid #dad6d6;
+    padding-top:20px ;
+    padding-bottom:40px ;
+}
+.sldt{
+    padding-top:40px ;
+}
+.sldt row{
+    display: flex;
+    justify-content: space-between;
+}
+input, select{
+    max-width:200px ;
+    margin-left: 30px;
+}
+.header-top-r{
+    display: flex;
+    justify-content: space-between;
+}
+.header-top-center button {
+    margin-right: 20px;
+    width: 200px;
+    height: 45px;
+    font-size: 14px;
+}
+.decriptions{
+    max-width: 600px;
+    margin-left: 115px;
+    border-left: 3px solid #dad6d6 ;
+    padding-left: 20px;
+}
+.form-group1{
+    display: flex;
+    justify-content: left;
+    gap:20px;
+}
+.bottom-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: 30px;
+}

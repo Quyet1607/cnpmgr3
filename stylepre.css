@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: rgb(12, 16, 16);
+    background-color: #FFFFFF;
+    font-size: 36px;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+}
+
+.header-top {
+    padding: 11px 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-left img {
+    width: 180px;
+    height: 50px;
+}
+
+.header-top-right {
+    height: 40px;
+    width: 40px;
+}
+
+.banner-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-flex;
+    padding: 32px;
+    align-items: flex-start;
+    background: rgba(6, 33, 38, 0.70);
+    backdrop-filter: blur(2.5px);
+}
+
+.banner-button p {
+    color: var(--white, #FFF);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112.5%;
+    margin: 0;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer{
+    margin-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-top: 1px solid #dad6d6;
+}
+.footer-left p{
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-style: Light;
+    color: #484848;
+    line-height: 36px;
+}
+.footer-right p{
+    float: right;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-style: Light;
+    color: #484848;
+    line-height: 36px;
+}
+
+.ht-btn {
+    position: relative;
+    left: 35%;
+    background-color: rgba(36, 190, 224, 1);
+    border: 1px solid rgba(36, 190, 224, 1);
+    border-radius: 47px;
+    font-size: 20px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.upd-button, .del-button {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 47px;
+}
+
+.upd-button {
+    background-color: rgba(36, 190, 224, 1);
+}
+
+.del-button {
+    background-color: rgba(36, 190, 224, 1);
+    margin-right: 10px;
+}
+
+#Pname,
+#IDDT {
+    left: 10%;
+    font-size: 45px;
+}
+
+#tab {
+    margin-left: 100px;
+}
+
+#CT {
+    text-align: left;
+}
+.id-right{
+	text-align: right;
+	margin-right: 150px;
+}
+td {
+    padding: 2mm;
+    margin: 1mm;
+}

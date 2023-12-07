@@ -1,0 +1,8 @@
+			BẢNG PHÂN CÔNG BÀI BÁO CÁO CUỐI KÌ HP CNPM  - Nhóm 3				
+				
+STT	Tên thành viên		Chức vụ		Nhiệm vụ				% đóng góp
+1	Võ Thị Phương Loan	Nhóm trưởng	design, frontend,backend		25%
+2	Nguyễn Công Quyết			database, frontend, backend		25%
+3	Trần Lý Anh Kiệt			ý tưởng luồng dữ liệu, front-end	16,67%
+4	Trần Lê Tâm Như				front-end, ý tưởng thiết kế		16,67%
+5	Nguyễn Thị Kim Hằng			ý tưởng thiết kế, luồng dữ liệu		16,66%
